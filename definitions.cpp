@@ -42,7 +42,7 @@ class WishList {
 public:
 	WishList();
 	// any class can view all the wishes in each wish list
-	// printWishes calls displayInfo for each wish in each wish list
+	// printWishes calls displayInfo for each wish in wishes
 	void printWishes ();
 private:
 	void addWish (int item_id);
